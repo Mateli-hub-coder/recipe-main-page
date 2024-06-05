@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Young Serif", sans-serif;
+  letter-spacing: 0.1px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  margin: 10px;
+  padding: 30px 10px;
+  opacity: 0.5px;
+}
+
+.content .header {
+  font-size: 2.6em;
+  padding-bottom: 20px;
+  color: hsl(24, 5%, 18%);
+  text-transform: capitalize;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+.schedule {
+  padding: 40px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 16px;
+}
+
+.schedule .schedule-header {
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  right: 20px;
+  padding-bottom: 10px;
+  color: hsl(332, 51%, 32%);
+}
+.list-menu {
+  padding-left: 10px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+
+.list-menu .list-item {
+  padding: 20px 0px;
+  color: hsl(30, 10%, 34%);
+  font-size: 1.5rem;
+}
+.list-item .mini-title {
+  font-weight: 800;
+}
+
+.sub_header {
+  padding: 20px 0px;
+  font-size: 2.4rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-menu {
+  padding-left: 30px;
+  margin-left: 10px;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+}
+
+.ingredients-menu li {
+  padding: 10px 0px 20px 10px;
+  color: hsl(30, 10%, 34%);
+  font-size: 1.3rem;
+}
+
+.line {
+  margin: 30px 0px;
+  height: 1px;
+  border: none;
+  background-color: hsl(30, 18%, 87%);
+}
+.ordered-list {
+  padding-left: 30px;
+  margin-left: 10px;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+}
+
+.ordered-list li {
+  padding: 10px 0px 10px 0px;
+  color: hsl(30, 10%, 34%);
+  font-size: 1.4rem;
+}
+
+.ordered-list li .mini-title {
+  font-weight: 800;
+}
+
+.nutrition {
+  font-size: 1.3rem;
+}
+
+table {
+  width: 60%;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: "Outfit", sans-serif;
+}
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+td {
+  padding: 12px 0px;
+}
+
+.left {
+  color: hsl(30, 10%, 34%);
+  float: left;
+  font-size: 1.1rem;
+}
+
+.right {
+  clear: both;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+  }
+  .content {
+    margin: 0px;
+    padding: 30px 0px;
+    opacity: 0.5px;
+  }
+  .content .header {
+    font-size: 2.2rem;
+    width: 100%;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .schedule {
+    padding: 0px;
+  }
+
+  .schedule .schedule-header {
+    font-size: 1.2rem;
+    position: relative;
+    right: -20px;
+    top: 20px;
+  }
+  .list-menu {
+    position: relative;
+    left: 50px;
+  }
+
+  .list-menu .list-item {
+    padding: 15px 0px;
+    font-size: 1rem;
+  }
+  .sub_header {
+    font-size: 1.8rem;
+  }
+
+  .ingredients-menu li {
+    padding: 6px 0px 12px 6px;
+    color: hsl(30, 10%, 34%);
+    font-size: 1rem;
+  }
+  .ordered-list {
+    padding-left: 20px;
+    margin-left: 10px;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .ordered-list li {
+    padding: 4px 0px 4px 0px;
+    font-size: 1rem;
+  }
+  .nutrition {
+    font-size: 1.1rem;
+  }
+  table {
+    width: 90%;
+  }
+}
